@@ -1,0 +1,7 @@
+# Needed only for real NLLB-200 translation (downloads ~2.4 GB of model weights on first use).
+-r requirements.txt
+torch>=2.1
+transformers>=4.38
+sentencepiece>=0.1.99
+protobuf>=4.25
+accelerate>=0.26

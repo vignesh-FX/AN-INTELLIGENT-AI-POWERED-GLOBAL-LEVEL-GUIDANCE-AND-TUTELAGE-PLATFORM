@@ -1,0 +1,14 @@
+# Core API (no GPU / no large downloads)
+fastapi>=0.110
+uvicorn[standard]>=0.27
+sqlalchemy>=2.0.25
+psycopg2-binary>=2.9.9      # Supabase / Postgres driver
+python-dotenv>=1.0
+pydantic>=2.5
+email-validator>=2.1        # EmailStr
+python-multipart>=0.0.9     # file uploads
+bcrypt>=4.1                 # used directly (passlib 1.7.4 is incompatible with bcrypt>=4.1)
+PyJWT>=2.8
+langdetect>=1.0.9           # language detection
+httpx>=0.25                 # test client
+pytest>=8

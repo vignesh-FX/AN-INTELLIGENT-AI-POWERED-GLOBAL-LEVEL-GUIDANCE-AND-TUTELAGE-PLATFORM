@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.venv*/
+venv/
+ENV/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local data and uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/
+uploads/
+
+# Frontend dependencies and output
+node_modules/
+frontend/dist/
+
+# Tooling
+.pytest_cache/
+.coverage
